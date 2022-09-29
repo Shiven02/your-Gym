@@ -1,0 +1,112 @@
+body{
+  background: #F9F9F9;
+  margin:1px 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+}
+
+
+
+/* Top-front black border */
+.black_area{
+  background: black;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+
+/* nav section */
+nav{
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+}
+
+.logo-img{
+  width: 55px;
+  position:absolute;
+  left: 20px;
+}
+
+.fa{
+  font-size: 1.3rem;
+}
+.options{
+  display: inline-block;
+  text-align: center;
+  margin:0 1rem;
+}
+.options:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  color: rgba(0, 0, 0,.7);
+}
+
+.login{
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top:76px;
+}
+.login:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  color: rgba(0, 0, 0,.7);
+}
+
+h2{
+  padding: 50px 30px 10px;
+}
+
+/* Image Section */
+.image-section{
+  margin-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+.container{
+  display: inline-block;
+  width: 30%;
+  /* margin: -3px; */
+  padding: 0;
+}
+.images{
+  width: 100%;
+  transition: ease-in 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+.arrow{
+  position: absolute !important;
+  font-size: 1.5em;
+  color: white;
+  transition: .3s ease-in-out;
+  visibility: hidden;
+}
+
+.img1{
+  border-radius: 20px 0 0 20px;
+}
+.img3{
+  border-radius: 0 20px 20px 0;
+}
+
+.images:hover{
+  transform: scale(1.2);
+  z-index: 2;
+}
+.container:hover .arrow{
+  visibility: visible;
+}
+
+/* footer-section */
+footer{
+  text-align: center;
+  padding:10px 1px 1px;
+  background-color: black;
+  color: white;
+  border-radius: 0 0 10px 10px;
+}
+.footer-icon{
+  padding:5px;
+}
